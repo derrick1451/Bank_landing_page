@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: hsl(220, 16%, 96%);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+    /* z-index: 1; */
+}
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-container {
+    position: relative;
+    top: -130px;
+    z-index: -1;
+    background-image: url(/images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-container {
+   position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.8rem;
+}

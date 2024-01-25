@@ -16,7 +16,6 @@ The designs were created to the following widths:
 - Bright Cyan: hsl(192, 70%, 51%)
 
 ### Neutral
-
 - Grayish Blue: hsl(233, 8%, 62%)
 - Light Grayish Blue: hsl(220, 16%, 96%)
 - Very Light Gray: hsl(0, 0%, 98%)
