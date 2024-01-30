@@ -66,7 +66,7 @@ h2{
 /* first section */
 .section-1 {
     background-color: hsl(220, 16%, 96%);
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -75,3 +75,74 @@ h2{
     align-items: center;
 
 }
+.section-1 p {
+    font-weight: 500;
+    color: hsl(233, 8%, 62%);
+    line-height: 25px;
+}
+.bank-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    align-items: center;  
+}
+.options h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+/* latest articles */
+.latest-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0.7rem;
+    padding-top: 8rem;
+}
+.latest-articles h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.trial img {
+    width: 100%;
+    height: 100%;
+}
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    gap: 1.5rem;
+}
+.articles-text {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 0.5rem;
+    
+}
+.articles-text h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.articles-text p,
+span{
+    font-weight: 500;
+    color: hsl(233, 8%, 62%);
+    line-height: 25px;
+}
+
