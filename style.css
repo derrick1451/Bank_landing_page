@@ -26,6 +26,12 @@ header {
     border-bottom: 1px solid hsl(0, 0%, 100%);
     /* z-index: 1; */
 }
+.navs {
+    display: none;
+}
+.nav-btn {
+    display: none;
+}
 /* hero section */
 main {
     display: flex;
@@ -38,7 +44,7 @@ main {
     z-index: -1;
     background-image: url(/images/bg-intro-mobile.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .text-container {
    position: relative;
@@ -187,4 +193,60 @@ footer {
 footer p {
     color: hsl(233, 8%, 62%);
     font-weight: 500;
+}
+@media (min-width: 768px){
+    .navs {
+        display: flex;
+        align-items: center;
+    }
+    .navs ul {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+    .humberger {
+        display: none;
+    }
+    
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-btn {
+    display: flex;
+    padding: 0.6rem 1.6rem;
+    cursor: pointer;
+}
+/* hero section */
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100dvh;
+    border: 1px solid blue;
+
+}
+.text-container {
+    order: 1;
+    top: 0;
+    margin-top: 2rem;
+    border: 1px solid yellow;
+    width: 50%;
+}
+.text-container h1,
+h2 {
+    width: 50%;
+}
+.img-container {
+    order: 2;
+    border: 1px solid red;
+    background-size: cover;
+    flex: 1;
+
+
+    
+}
+
+
+    
 }
