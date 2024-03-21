@@ -219,6 +219,7 @@ header {
     cursor: pointer;
 }
 /* hero section */
+/* Not yet completed */
 main {
     display: flex;
     flex-direction: row;
@@ -241,11 +242,29 @@ h2 {
     order: 2;
     border: 1px solid red;
     background-size: cover;
-    flex: 1;
-
-
-    
+    flex: 1   
 }
+/* return here */
+/* services sections */
+.section-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section-intro p {
+    width: 70%;
+    text-align: start;
+    padding-left: 25px;
+}
+.bank-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
 
 
     
